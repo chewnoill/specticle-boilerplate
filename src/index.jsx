@@ -23,8 +23,17 @@ class App extends Component {
   render() {
     return (
       <Deck>
+        <Slide />
         <Slide>
-          <Text>Hello World</Text>
+          <div>
+            <Text>Hello World</Text>
+
+            <Text>Hello World</Text>
+
+            <Text>Hello World</Text>
+
+            <Text>Hello World</Text>
+          </div>
         </Slide>
       </Deck>
     );
